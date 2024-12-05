@@ -19,6 +19,7 @@ def backoff_probability(ngram, ngram_counts, lower_ngram_counts):
     else:
         return 0.0
 
+
 # Save n-gram counts to a file
 def save_ngram_counts(ngram_counts, output_file):
     with open(output_file, 'w') as f:
